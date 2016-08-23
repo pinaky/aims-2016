@@ -16,6 +16,7 @@ Asymptotically Independent Markov Sampling
 6. Running the example
 7. Implementing your own instance
 8. Extending the code
+9. Known Issues
 
 ===
 
@@ -135,4 +136,14 @@ the Gaussian Forward Model with your own version.
 
 8. EXTENDING THE CODE
 <TODO>
+
+
+9. KNOWN ISSUES
+
+Upon running 'tests, 
+case 'unique_likelihood_derivative_value_smallbeta'
+fails. This is normal. The test value was calculated
+with bad precision resulting in -inf. The true value
+does not match this.
+TODO: Fix check value
 

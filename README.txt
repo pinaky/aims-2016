@@ -4,6 +4,7 @@ Copyright (c) 2016 Pinaky Bhattacharyya
 Asymptotically Independent Markov Sampling
 [An independent implentation in C++11]
 [Based on the algorithm prescribed at: https://arxiv.org/abs/1110.1880]
+[This is an UNOFFICIAL implementation of the algorithm]
 
 === TABLE OF CONTENTS ===
 

@@ -45,7 +45,7 @@ namespace aims
 		for(it = integral_data.begin(); it != integral_data.end(); ++it)
 		{
 			os << "\t\t\"" << it->first << "\": " <<  it->second;
-			if(it == fit) os << std::endl << "\t}," << std::endl;
+			if(it == fit) os << std::endl << "\t}" << std::endl;
 			else os << "," << std::endl;
 		}
 
